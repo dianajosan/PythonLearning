@@ -6,4 +6,4 @@ def rep_cat(x, y):
     return result
 
 
-rep_cat(3, 4)
+rep_cat(3, 5)
