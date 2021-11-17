@@ -1,5 +1,7 @@
-price = 250
-print(price)
+price = input("Enter the price: ")
+
+print("The initial price is: " + str(price))
+price = int(price)
 
 if price > 300:
     price = price - (30/100*price)
@@ -12,4 +14,4 @@ elif price < 100:
 elif price < 0:
     price = price
 
-print(price)
+print("The new price is: " + str(price))

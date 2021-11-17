@@ -5,3 +5,5 @@ r = 3.84 * (10 ** 8)
 
 Fg = G*M*m/(r ** 2)
 print(Fg)
+print(round(Fg))
+print("Gravitational vorce value: " + str(format(Fg,".2f")))
