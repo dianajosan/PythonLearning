@@ -1,3 +1,6 @@
+number = input("Enter a value: ")
+number = int(number)
+
 def factorial(n):
     if n == 0 or n == 1:
         return 1
@@ -6,4 +9,4 @@ def factorial(n):
     return result
 
 
-print("The factorial of 5 is:  " + str(factorial(5)))
+print("The factorial of 5 is:  " + str(factorial(number)))
