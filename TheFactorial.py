@@ -9,4 +9,4 @@ def factorial(n):
     return result
 
 
-print("The factorial of 5 is:  " + str(factorial(number)))
+print(f"The factorial of {number} is:  " + str(factorial(number)))

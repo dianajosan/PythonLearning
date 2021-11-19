@@ -3,11 +3,10 @@ second_parameter = input("Enter the second number: ")
 
 
 def rep_cat(x, y):
-    if x.isdigit() and y.isdigit():
-        x = str(x) * 10
-        y = str(y) * 5
-        result = x + y
-        print("The concatenation result between the values is: " + result)
+    x = str(x) * 10
+    y = str(y) * 5
+    result = x + y
+    print("The concatenation result between the values is: " + result)
 
     return result
 
