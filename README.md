@@ -42,3 +42,22 @@ The Fibonacci sequence is a series of numbers where every number is the sum of t
 
     0 1 1 2 3 5 8 13
 You must write the `fib()` function which takes in a positive integer, n, and returns the n-th Fibonacci number. However, instead of using recursion, your function must use any of the loops.
+
+## Exercise 7: From List to Tuple
+You are given a list called my_list. Using this list, you must create a tuple called `my_tuple`. The tuple will contain the list’s first element, last element, and the length of the list, in that same order.
+
+## Exercise 8: Kth Maximum Integer in a List
+Given a list of integers and a number k, find the kth largest integer in the list. The integer will be stored in the kth_max variable.
+
+For example, with a list of 7 integers, if k = 2, then kth_max will be equal to the second-largest integer in the list. 
+If k = 6, kth_max will equal the 6th largest integer.
+ 
+## Exercise 9: Highs and Lows
+You must implement the `count_low_high()` function. Its parameter is a list of numbers.
+
+If a number is greater than 50 or divisible by 3, it will count as a high. If these conditions are not met, the number is considered a low.
+
+At the end of the function, you must return a list that contains the number of lows and highs, in that order.
+
+In case the list is empty, you may return None.
+
